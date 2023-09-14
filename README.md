@@ -1,5 +1,5 @@
 # Projeto de cosumo de API
-Resumo
+Resumo:
 Este projeto consiste em três partes distintas para interagir com a API pública do GitHub. Cada parte permite aos usuários realizar diferentes ações, como listar repositórios, obter informações básicas do perfil ou obter informações detalhadas do perfil de um usuário do GitHub.
 
 Parte 1: Listagem de Repositórios do GitHub
