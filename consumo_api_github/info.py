@@ -1,6 +1,6 @@
 import requests
 import json
-nome = input("Escreva seu nome: ")
+nome = input("Escreva seu nome de usuario: ")
 URL = f'https://api.github.com/users/{nome}'
 req = requests.get(URL)
 
