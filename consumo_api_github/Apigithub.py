@@ -2,6 +2,7 @@ import requests
 import json
 
 # Script de lista de repositorio do github
+nome = input('Informe o usuario: ')
 class ListaDeRepositorios():
 
     def __init__(self, usuario):
@@ -21,6 +22,6 @@ class ListaDeRepositorios():
         else:
             print(dados_api)
 
-repositorios = ListaDeRepositorios('orlandosaraivajr')
+repositorios = ListaDeRepositorios(nome)
 repositorios.imprime_repositorios()
 
