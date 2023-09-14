@@ -14,5 +14,5 @@ if req.status_code == 200:
     print("Nome de usuário:", login)
     print("Descrição do perfil:", descricao)
     
-if req.status_code == 404:
-    print('Usuário não encontrado')
+elif req.status_code:
+    print(req.status_code)
