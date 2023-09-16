@@ -64,7 +64,12 @@ Ele não lida com autenticação, portanto, está sujeito às limitações de ac
 
 ## Como ativar no seu pc
 Como Ativar o Ambiente Virtual
-python -m venv P1-DW3
-cd P1-DW3
-cd Scripts
-activate.bat
+- python -m venv P1-DW3
+- cd P1-DW3
+- cd Scripts
+- activate.bat
+## como extrair informação do github
+acessa o link https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository 
+## Comando usado para execução correta do Sistema
+- pip install -r requirements.txt
+- pip install requests
