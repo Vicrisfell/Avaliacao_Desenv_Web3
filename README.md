@@ -62,7 +62,7 @@ Certifique-se de que as seguintes bibliotecas Python estejam instaladas em seu a
 Este projeto depende da disponibilidade da API pública do GitHub.
 Ele não lida com autenticação, portanto, está sujeito às limitações de acesso não autenticado à API.
 
-# Como ativar no seu pc
+## Como ativar no seu pc
 Como Ativar o Ambiente Virtual
 python -m venv P1-DW3
 cd P1-DW3
